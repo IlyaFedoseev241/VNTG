@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/register_username_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:hint="Имя пользователя">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/register_phone_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_username_ed"
+        android:layout_marginTop="40dp"
+        android:hint="Номер телефона"
+        android:inputType="number"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/register_password_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_phone_ed"
+        android:layout_marginTop="40dp"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Регистрация"
+        android:textSize="20sp"
+        android:layout_below="@+id/register_password_ed"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        >
+    </Button>
+
+
+</RelativeLayout>

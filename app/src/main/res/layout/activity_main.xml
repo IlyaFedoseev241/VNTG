@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/welcome"
+    >
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_marginTop="100dp"
+        >
+
+    </ImageView>
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:text="Войти"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/input_design"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/main_register_btn"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/main_login_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_design"
+        android:text="Регистрация "
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        >
+
+
+    </Button>
+
+</RelativeLayout>
